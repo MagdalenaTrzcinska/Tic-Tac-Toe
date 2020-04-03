@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961ff31d-816a-43fa-8892-73ad9177af57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/elo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greeter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greeter.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,6 +49,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,16 +68,30 @@
       <workItem from="1585152227263" duration="404000" />
       <workItem from="1585321958038" duration="3289000" />
       <workItem from="1585468242066" duration="1903000" />
+      <workItem from="1585552655759" duration="1226000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/greeter.js" />
+      </list>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="1122" y="411" key="com.intellij.ide.util.TipDialog" timestamp="1585468242762">
       <screen x="0" y="23" width="1920" height="1112" />
     </state>
     <state x="1122" y="411" key="com.intellij.ide.util.TipDialog/0.23.1920.1112@0.23.1920.1112" timestamp="1585468242762" />
+    <state x="1022" y="149" width="837" height="825" key="find.popup" timestamp="1585553459685">
+      <screen x="0" y="23" width="1920" height="1112" />
+    </state>
+    <state x="1022" y="149" width="837" height="825" key="find.popup/0.23.1920.1112@0.23.1920.1112" timestamp="1585553459685" />
+    <state x="1089" y="284" width="700" height="530" key="recent.locations.popup" timestamp="1585553453095">
+      <screen x="0" y="23" width="1920" height="1112" />
+    </state>
+    <state x="1089" y="284" width="700" height="530" key="recent.locations.popup/0.23.1920.1112@0.23.1920.1112" timestamp="1585553453095" />
   </component>
 </project>
