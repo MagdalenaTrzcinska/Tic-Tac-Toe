@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961ff31d-816a-43fa-8892-73ad9177af57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cvsript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
@@ -25,9 +26,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -78,6 +79,13 @@
       <workItem from="1585468242066" duration="1903000" />
       <workItem from="1585552655759" duration="1226000" />
       <workItem from="1593260517812" duration="3628000" />
+      <workItem from="1600114295557" duration="42000" />
+      <workItem from="1600276624108" duration="1211000" />
+      <workItem from="1600502387048" duration="696000" />
+      <workItem from="1601665880754" duration="3984000" />
+      <workItem from="1601811413411" duration="413000" />
+      <workItem from="1602351322953" duration="126000" />
+      <workItem from="1607187318053" duration="241000" />
     </task>
     <servers />
   </component>
@@ -90,22 +98,13 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1091" y="336" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593263438273">
-      <screen x="0" y="23" width="1920" height="1112" />
+    <state x="1091" y="338" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601704704207">
+      <screen x="0" y="23" width="1920" height="1119" />
     </state>
-    <state x="1091" y="336" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1112@0.23.1920.1112" timestamp="1593263438273" />
-    <state x="1122" y="419" key="com.intellij.ide.util.TipDialog" timestamp="1593260518876">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state x="1091" y="338" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1119@0.23.1920.1119" timestamp="1601704704207" />
+    <state x="1122" y="414" key="com.intellij.ide.util.TipDialog" timestamp="1607187323482">
+      <screen x="0" y="23" width="1920" height="1119" />
     </state>
-    <state x="1122" y="419" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1593260518876" />
-    <state x="1122" y="411" key="com.intellij.ide.util.TipDialog/0.23.1920.1112@0.23.1920.1112" timestamp="1585468242762" />
-    <state x="1022" y="149" width="837" height="825" key="find.popup" timestamp="1585553459685">
-      <screen x="0" y="23" width="1920" height="1112" />
-    </state>
-    <state x="1022" y="149" width="837" height="825" key="find.popup/0.23.1920.1112@0.23.1920.1112" timestamp="1585553459685" />
-    <state x="1089" y="284" width="700" height="530" key="recent.locations.popup" timestamp="1585553453095">
-      <screen x="0" y="23" width="1920" height="1112" />
-    </state>
-    <state x="1089" y="284" width="700" height="530" key="recent.locations.popup/0.23.1920.1112@0.23.1920.1112" timestamp="1585553453095" />
+    <state x="1122" y="414" key="com.intellij.ide.util.TipDialog/0.23.1920.1119@0.23.1920.1119" timestamp="1607187323482" />
   </component>
 </project>

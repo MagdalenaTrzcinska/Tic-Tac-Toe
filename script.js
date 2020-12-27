@@ -1,5 +1,14 @@
 let cards, howMuchDiscovered, whoTurn, whichPlayer, pkt;
-
+pkt = {
+    OnePlayer: 0,
+    TwoPlayer: 0,
+    Tie: 0
+};
+whoTurn = document.getElementById('whoTurn');
+cards = document.getElementsByClassName('card');
+cards = [...cards];
+howMuchDiscovered = 0;
+whichPlayer = Math.floor(Math.random() * 2);
 const pairs = [0, 1, 2,
     3, 4, 5,
     6, 7, 8,
@@ -9,48 +18,39 @@ const pairs = [0, 1, 2,
     1, 4, 7,
     2, 5, 8];
 
-pkt = {
-  OnePlayer: 0,
-  TwoPlayer: 0,
-  Tie: 0
-};
-
-whoTurn = document.getElementById('whoTurn');
-cards = document.getElementsByClassName('card');
-cards = [...cards];
-howMuchDiscovered = 0;
-
 
 function onNewGame() {
     document.querySelector('.article').style.display = 'block';
     document.querySelector('.header').style.display = 'none';
-    document.querySelector('#first').innerHTML = 'Player 1: ';
-    document.querySelector('#second').innerHTML = 'Player 2: ';
-    document.querySelector('#tie').innerHTML = 'Tie: ';
-    removeGame();
     newRound();
+    addEventListenerToCards();
 }
 
 function removeGame() {
-    whichPlayer = Math.floor(Math.random() * 2);
     howMuchDiscovered = 0;
+    document.querySelector('#first').innerHTML = 'Player 1: ';
+    document.querySelector('#second').innerHTML = 'Player 2: ';
+    document.querySelector('#tie').innerHTML = 'Tie: ';
+    removeClass();
+}
 
+function removeClass() {
     for (let i = 0; i < cards.length; i++) {
         cards[i].classList.remove('circle0');
         cards[i].classList.remove('circle1');
     }
-    for (let i = 0; i < cards.length; i++) {
-        cards[i].addEventListener("click", clickCardTwoPlayers);
-    }
+    addEventListenerToCards();
+}
+
+function addEventListenerToCards() {
+    cards.forEach((card) => {
+        card.addEventListener("click", clickCardTwoPlayers);
+    })
 }
 
 function newRound() {
     setTimeout(() => {
-        if (whichPlayer === 0) {
-            whoTurn.innerHTML = "FIRST PLAYER";
-        } else {
-            whoTurn.innerHTML = "SECOND PLAYER";
-        }
+        whichPlayer === 0 ? whoTurn.innerHTML = "FIRST PLAYER" : whoTurn.innerHTML = "SECOND PLAYER";
     }, 500);
 }
 
@@ -67,7 +67,7 @@ function clickCardTwoPlayers() {
     if (howMuchDiscovered === 9 && verification("circle0") === false && verification("circle1") === false) {
         pkt.Tie++;
         document.getElementById('tie').innerHTML = "Tie: " + pkt.Tie;
-        setTimeout(removeGame, 700);
+        setTimeout(removeClass, 700);
     }
     newRound();
 }
@@ -84,12 +84,20 @@ function verification(active) {
 
 function addPkt(whichPlayer) {
     if (whichPlayer === 0) {
-        pkt.OnePlayer++;
-        document.getElementById('first').innerHTML = "Player 1 : " + pkt.OnePlayer;
+        firstPlayerWon();
     }
     if (whichPlayer === 1) {
-        pkt.TwoPlayer++;
-        document.getElementById('second').innerHTML = "Player 2 : " + pkt.TwoPlayer;
+        secondPlayerWon();
     }
-    setTimeout(removeGame, 700);
+    setTimeout(removeClass, 700);
+}
+
+function firstPlayerWon() {
+    pkt.OnePlayer++;
+    document.getElementById('first').innerHTML = "Player 1 : " + pkt.OnePlayer;
+}
+
+function secondPlayerWon() {
+    pkt.TwoPlayer++;
+    document.getElementById('second').innerHTML = "Player 2 : " + pkt.TwoPlayer;
 }

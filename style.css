@@ -12,7 +12,7 @@ header {
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: #c0c0c0;
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
     z-index: 2;
 }
 
@@ -25,12 +25,11 @@ article {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
 }
 
 .card {
     display: inline-block;
-
     width: 180px;
     height: 180px;
     float: left;
@@ -64,7 +63,6 @@ article {
     width: 558px;
     left: 5%;
     background-color: black;
-
     float: left;
 }
 
@@ -78,7 +76,7 @@ article {
     font-size: 20px;
 }
 
-button {
+#start {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -95,11 +93,11 @@ button {
 
 }
 
-button:hover {
+#start:hover {
     font-weight: 600;
 }
 
-button:focus {
+#start:focus {
     outline: none;
 }
 
@@ -145,7 +143,6 @@ button:focus {
         width: 303px;
         height: 303px;
         top: 5%;
-
         left: 50%;
         transform: translateX(-50%);
     }
@@ -153,7 +150,6 @@ button:focus {
     .card {
         width: 95px;
         height: 95px;
-
     }
 
     .win {
@@ -163,7 +159,6 @@ button:focus {
         left: 50%;
         transform: translateX(-50%);
         display: none;
-
     }
 
     .header {
@@ -174,7 +169,6 @@ button:focus {
     #game {
         height: 270px;
         bottom: 0;
-
         left: 50%;
         width: 100%;
         transform: translateX(-50%);
@@ -182,7 +176,7 @@ button:focus {
         text-align: center;
     }
 
-    button {
+    #start {
         margin-top: 10px;
     }
 
@@ -191,4 +185,10 @@ button:focus {
         margin-bottom: 60px;
         font-size: 20px;
     }
+}
+
+#newGame {
+    position: absolute;
+    bottom: 0;
+    right:0;
 }
