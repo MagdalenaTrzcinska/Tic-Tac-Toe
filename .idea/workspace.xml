@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961ff31d-816a-43fa-8892-73ad9177af57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cv.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cvsript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsript.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +85,18 @@
       <workItem from="1601811413411" duration="413000" />
       <workItem from="1602351322953" duration="126000" />
       <workItem from="1607187318053" duration="241000" />
+      <workItem from="1610602952449" duration="104000" />
+      <workItem from="1610628309750" duration="512000" />
+      <workItem from="1610629465389" duration="1198000" />
+      <workItem from="1610774671552" duration="1738000" />
+      <workItem from="1610776417055" duration="607000" />
+      <workItem from="1610777054876" duration="162000" />
+      <workItem from="1610777274853" duration="438000" />
+      <workItem from="1610782310918" duration="74000" />
+      <workItem from="1610783402082" duration="346000" />
+      <workItem from="1610784405595" duration="1170000" />
+      <workItem from="1610795730139" duration="2248000" />
+      <workItem from="1612160094085" duration="372000" />
     </task>
     <servers />
   </component>
@@ -98,13 +109,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1091" y="338" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601704704207">
+    <state x="1120" y="261" key="#Inspections" timestamp="1610795841218">
       <screen x="0" y="23" width="1920" height="1119" />
     </state>
-    <state x="1091" y="338" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1119@0.23.1920.1119" timestamp="1601704704207" />
-    <state x="1122" y="414" key="com.intellij.ide.util.TipDialog" timestamp="1607187323482">
+    <state x="1120" y="261" key="#Inspections/0.23.1920.1119@0.23.1920.1119" timestamp="1610795841218" />
+    <state x="1122" y="414" key="com.intellij.ide.util.TipDialog" timestamp="1610795739350">
       <screen x="0" y="23" width="1920" height="1119" />
     </state>
-    <state x="1122" y="414" key="com.intellij.ide.util.TipDialog/0.23.1920.1119@0.23.1920.1119" timestamp="1607187323482" />
+    <state x="1122" y="419" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1610774672287" />
+    <state x="1122" y="414" key="com.intellij.ide.util.TipDialog/0.23.1920.1119@0.23.1920.1119" timestamp="1610795739350" />
   </component>
 </project>

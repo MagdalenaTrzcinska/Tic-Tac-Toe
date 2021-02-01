@@ -1,14 +1,17 @@
-let cards, howMuchDiscovered, whoTurn, whichPlayer, pkt;
-pkt = {
+const start = document.querySelector('#start');
+const reset = document.querySelector('#newGame');
+const whoTurn = document.getElementById('whoTurn');
+let cards = document.getElementsByClassName('card');
+cards = [...cards];
+
+const pkt = {
     OnePlayer: 0,
     TwoPlayer: 0,
     Tie: 0
 };
-whoTurn = document.getElementById('whoTurn');
-cards = document.getElementsByClassName('card');
-cards = [...cards];
-howMuchDiscovered = 0;
-whichPlayer = Math.floor(Math.random() * 2);
+
+let howMuchDiscovered = 0;
+let whichPlayer = Math.floor(Math.random() * 2);
 const pairs = [0, 1, 2,
     3, 4, 5,
     6, 7, 8,
@@ -17,6 +20,9 @@ const pairs = [0, 1, 2,
     0, 3, 6,
     1, 4, 7,
     2, 5, 8];
+
+start.addEventListener('click', onNewGame);
+reset.addEventListener('click', removeGame);
 
 
 function onNewGame() {
@@ -101,3 +107,5 @@ function secondPlayerWon() {
     pkt.TwoPlayer++;
     document.getElementById('second').innerHTML = "Player 2 : " + pkt.TwoPlayer;
 }
+
+
