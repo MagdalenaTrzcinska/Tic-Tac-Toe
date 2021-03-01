@@ -1,6 +1,7 @@
-const start = document.querySelector('#start');
-const reset = document.querySelector('#newGame');
-const whoTurn = document.getElementById('whoTurn');
+//const start = document.querySelector('#start');
+//const reset = document.querySelector('#newGame');
+//const whoTurn = document.getElementById('whoTurn');
+/*
 let cards = document.getElementsByClassName('card');
 cards = [...cards];
 
@@ -10,8 +11,10 @@ const pkt = {
     Tie: 0
 };
 
-let howMuchDiscovered = 0;
-let whichPlayer = Math.floor(Math.random() * 2);
+//let howMuchDiscovered = 0;
+//let whichPlayer = Math.floor(Math.random() * 2);
+
+/*
 const pairs = [0, 1, 2,
     3, 4, 5,
     6, 7, 8,
@@ -21,10 +24,12 @@ const pairs = [0, 1, 2,
     1, 4, 7,
     2, 5, 8];
 
-start.addEventListener('click', onNewGame);
-reset.addEventListener('click', removeGame);
+ */
 
+//start.addEventListener('click', onNewGame);
+//reset.addEventListener('click', removeGame);
 
+/*
 function onNewGame() {
     document.querySelector('.article').style.display = 'block';
     document.querySelector('.header').style.display = 'none';
@@ -40,19 +45,25 @@ function removeGame() {
     removeClass();
 }
 
+
+
 function removeClass() {
     for (let i = 0; i < cards.length; i++) {
         cards[i].classList.remove('circle0');
         cards[i].classList.remove('circle1');
     }
-    addEventListenerToCards();
+    //addEventListenerToCards();
 }
 
+/*
 function addEventListenerToCards() {
     cards.forEach((card) => {
         card.addEventListener("click", clickCardTwoPlayers);
     })
 }
+
+
+
 
 function newRound() {
     setTimeout(() => {
@@ -60,6 +71,7 @@ function newRound() {
     }, 500);
 }
 
+/*
 function clickCardTwoPlayers() {
     this.classList.add('circle' + whichPlayer);
     howMuchDiscovered++;
@@ -78,6 +90,10 @@ function clickCardTwoPlayers() {
     newRound();
 }
 
+ */
+
+/*
+
 function verification(active) {
     for (let i = 0; i < pairs.length; i = i + 3) {
         if (cards[pairs[i]].classList.contains(active) && cards[pairs[i + 1]].classList.contains(active)
@@ -88,6 +104,9 @@ function verification(active) {
     return false;
 }
 
+ */
+
+/*
 function addPkt(whichPlayer) {
     if (whichPlayer === 0) {
         firstPlayerWon();
@@ -108,4 +127,6 @@ function secondPlayerWon() {
     document.getElementById('second').innerHTML = "Player 2 : " + pkt.TwoPlayer;
 }
 
+
+ */
 
